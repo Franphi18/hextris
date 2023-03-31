@@ -10,7 +10,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_username }}
-        password: ${{ secrets.FTP_velito }}
+        server: ${{ secrets.FTP_SERVEUR }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_VELITO }}
         server-dir : public_html/
